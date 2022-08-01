@@ -20,6 +20,9 @@ import { SearchComponent } from './search/search.component';
   imports: [
     CommonModule,
     RouterModule
+  ],
+  exports: [
+    CreateComponent,
   ]
 })
 export class QuestionModule { }
