@@ -13,6 +13,9 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsComponent } from './terms/terms.component';
 import { AuthModule } from './auth/auth.module';
 import { CoreModule } from './core/core.module';
+import { QuestionModule } from './core/question/question.module';
+import { AnswerModule } from './core/answer/answer.module';
+import { CategoryModule } from './core/category/category.module';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { CoreModule } from './core/core.module';
     AppRoutingModule,
     RouterModule,
     AuthModule,
-    CoreModule
+    CoreModule,
+    QuestionModule,
+    AnswerModule,
+    CategoryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
