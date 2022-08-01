@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-show',
+  selector: 'app-show-question',
   templateUrl: './show.component.html',
   styleUrls: ['./show.component.scss']
 })

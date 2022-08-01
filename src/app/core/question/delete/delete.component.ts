@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-delete',
+  selector: 'app-delete-question',
   templateUrl: './delete.component.html',
   styleUrls: ['./delete.component.scss']
 })
