@@ -1,1 +1,150 @@
-<p>search works!</p>
+<div class="row">
+  <div class="col-12 col-lg-3">
+    <form class="col-12 col-md-auto justify-content-center" role="search">
+      <h4 class="mb-3">Search Filters</h4>
+            
+      <!-- Tags -->
+      <p class="mb-2"><strong>Tags</strong></p>
+      <input type="search" class="form-control" placeholder="Tags..., separate by commas" aria-label="Tags">
+
+      <hr>
+
+      <!-- Status -->
+      <p class="mb-2"><strong>By Status</strong></p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="status_pending">
+        <label class="form-check-label" for="status_pending">
+          Pending
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="status_answered">
+        <label class="form-check-label" for="status_answered">
+          Answered
+        </label>
+      </div>
+
+      <hr>
+
+      <!-- Category -->
+      <p class="mb-2"><strong>By Category</strong></p>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="category_1">
+        <label class="form-check-label" for="category_1">
+          Category 1
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="category_2">
+        <label class="form-check-label" for="category_2">
+          Category 2
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="category_3">
+        <label class="form-check-label" for="category_3">
+          Category 3
+        </label>
+      </div>
+      <div class="form-group mt-2">
+        <button class="btn btn-sm btn-outline-dark">See More ▼</button>
+      </div>
+
+      <hr>
+
+    </form>
+  </div>
+  <div class="col-12 col-lg-9">
+    <div class="d-flex bd-highlight">
+      <div class="bd-highlight">
+        <h4 class="">Search Results for ''</h4>
+      </div>
+      <div class="ms-auto bd-highlight">
+          <p class="mt-2 mb-0 text-muted">Showing 1-10 of 120</p>
+      </div>
+    </div>
+
+    <!-- Button Toolbar -->
+    <div class="btn-toolbar justify-content-between mb-4" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="input-group">
+        <label class="input-group-text" for="inputGroupSelect01">Sort By</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option value="created_at">Date Created</option>
+          <option value="last_answered_at">Date Last Answered</option>
+          <option value="waitlisters_count">Number of Waitlisters</option>
+        </select>
+        <select class="form-select" id="inputGroupSelect01">
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
+      </div>
+      <div class="btn-group" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-outline-secondary">Prev</button>
+        <button type="button" class="btn btn-outline-secondary">Next</button>
+      </div>
+    </div>
+
+    <ul class="list-group list-questions">
+      <a href="#">
+        <li class="list-group-item">
+          <div class="container-fluid mb-1">
+            <div class="row">
+              <div class="col-12 col-lg-9">
+                <div class="d-lg-flex justify-content-start">
+                  <p class="mb-0">Does a quick brown fox jumps over the lazy fat dog?</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="d-lg-flex justify-content-end">
+                  <p class="text-muted mb-0">18 minutes ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-9">
+                <div class="d-lg-flex justify-content-start">
+                  <p class="badge bg-primary mb-0">Enrollment</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="d-lg-flex justify-content-end">
+                  <p class="badge bg-success mb-0">Answered</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </a>
+      <a href="#">
+        <li class="list-group-item">
+          <div class="container-fluid mb-1">
+            <div class="row">
+              <div class="col-12 col-lg-9">
+                <div class="d-lg-flex justify-content-start">
+                  <p class="mb-0">Does a quick brown fox jumps over the lazy fat dog?</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="d-lg-flex justify-content-end">
+                  <p class="text-muted mb-0">18 minutes ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-9">
+                <div class="d-lg-flex justify-content-start">
+                  <p class="badge bg-primary mb-0">Enrollment</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="d-lg-flex justify-content-end">
+                  <p class="badge bg-success mb-0">Answered</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </a>
+    </ul>
+  </div>
+</div>
