@@ -5,3 +5,9 @@ a {
 li:hover {
     background-color: #f5f5f5;
 }
+
+input[type='checkbox'], 
+label, 
+select {
+    cursor: pointer;
+}
